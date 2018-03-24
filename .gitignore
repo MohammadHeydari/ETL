@@ -48,3 +48,12 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+.DS_Store
+.idea/inspectionProfiles/
+src/.DS_Store
+src/main/.DS_Store
+src/main/java/.DS_Store
+src/main/java/snapp/.DS_Store
+src/main/java/snapp/etl/.DS_Store
+src/main/java/snapp/etl/combiner/.DS_Store
+target/
