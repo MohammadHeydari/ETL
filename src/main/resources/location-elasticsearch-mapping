@@ -1,0 +1,21 @@
+PUT _template/snapp-location
+{
+  "index_patterns": ["snapp-location*"],
+  "mappings": {
+    "snapp_app_data": {
+      "properties": {
+        "location": {
+          "type": "geo_point"
+        },"driver_id":{
+          "type": "integer"
+        },"ts":{
+          "type": "date"
+        },"sp":{
+          "type": "integer"
+        },"st":{
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
